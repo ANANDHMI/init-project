@@ -1,4 +1,8 @@
 
+// To run this javascript project install npm package http-server
+
+//then open the javascript folder and run the command http-server -p 3000, this will open up the index.html document
+
 
 // arrow functions are written as map or filter use this
 // const greet =()=>{
