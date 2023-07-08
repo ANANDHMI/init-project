@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Child from './Child';
+import PassComponent from './PassComponent';
 
 function Parent(){
 
@@ -16,12 +17,14 @@ function Parent(){
         <div>
             <h1>Hello From parent</h1>
 
-            <Child 
-            //1. pass state variables  
-            title={name} 
-            
-            //2. pass functions
-            onclick= {changeName} />
+            <PassComponent>
+                <Child 
+                //1. pass state variables  
+                title={name} 
+                
+                //2. pass functions
+                onclick= {changeName} />
+            </PassComponent>
         </div>
     )
 }
