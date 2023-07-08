@@ -1,0 +1,9 @@
+
+Propertient ==> props
+
+It is an object to store the value of attributes of a tag and work similar to the HTML attributes.
+It gives a way to pass data from one component to other components.
+In this session learn how to pass arguments from parent to child.
+    1. pass state variable
+    2. pass functions
+    3. pass component
